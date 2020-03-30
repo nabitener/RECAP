@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de matemática</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+
+<body>
+
+    <form>
+        <fieldset id="matematica-A">
+            <legend>Quiz de matemática</legend>
+            <div class="centro">
+
+                <p class="questao-mat"><strong>Questão 1</strong> - Quanto é 25 multiplicado por 100?</p>
+                <label><input type="radio" class="respostas" name="mul" value="errado">A. 250</label>
+                <label><input type="radio" class="respostas" name="mul" value="certo">B. 2500</label>
+                <label><input type="radio" class="respostas" name="mul" value="errado">C. 25000</label>
+
+                <p class="questao-mat"><strong>Questão 2</strong> - Quanto é 25 mais 25?</p>
+                <label><input type="radio" class="respostas" name="mais" value="certo">A. 50</label>
+                <label><input type="radio" class="respostas" name="mais" value="errado">B. 2525</label>
+                <label><input type="radio" class="respostas" name="mais" value="errado">C. 225</label>
+
+                <p class="questao-mat"><strong>Questão 3</strong> - Quanto é 4 divido por 2?</p>
+                <label><input type="radio" class="respostas" name="divi" value="errado">A. 6</label>
+                <label><input type="radio" class="respostas" name="divi" value="certo">B. 2</label>
+                <label><input type="radio" class="respostas" name="divi" value="errado">C. 8</label>
+
+                <input class="confirma" type="submit" value="Confirmar" onclick="checMul()">
+            </div>
+        </fieldset>
+
+    </form>
+
+    <script src="main_1.js"></script>
+</body>
+
+</html>

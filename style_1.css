@@ -1,0 +1,64 @@
+* {
+    background-color: lightgrey;
+    font-family: cursive;
+}
+
+fieldset {
+    border: none;
+    width: 100%;
+}
+
+.centro {
+    text-align: center;
+    
+}
+
+legend {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(6, 6, 112);
+    margin: 40px auto 20px;
+    padding: 40px;
+}
+
+.questao-mat {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.respostas {
+    margin: 10px 10px 40px 10px;
+    display: inline;
+    
+}
+
+.confirma {
+    display: block;
+    width: 20%;
+    height: 60px;
+    padding: 15px 0;
+    margin: 70px auto 20px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    
+}
+
+.confirma:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.corretas {
+    color: green;
+}
+
+.incorreta{
+    color: red;
+}
